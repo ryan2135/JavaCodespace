@@ -16,6 +16,8 @@ Enter Denominator: 2
 Is the following solution correct? Why or why not?
 
 <pre>
+import java.util.Scanner;
+
 public class Fraction {
   public static void main (String[] args) {
     Scanner scanner = new Scanner (System.in);
