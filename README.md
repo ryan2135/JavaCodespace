@@ -1,1 +1,33 @@
 # JavaCodespace
+
+## Problem
+
+Write a complete Java program that asks the user to enter a numerator and a denominator of a fraction from the keyboard. Output the fraction and resulting fraction as a decimal to the keyboard.
+
+Here is an example of how your program is to work:
+
+<pre>
+Enter Numerator: 4
+Enter Denominator: 2
+
+4/2 = 2
+</pre>
+
+Is the following solution correct? Why or why not?
+
+<pre>
+public class Fraction {
+  public static void main (String[] args) {
+    Scanner scanner = new Scanner (System.in);
+    int numerator, denominator, result;
+    
+    System.out.print ("Enter Numerator: ");
+    numerator = scanner.nextInt ();
+    System.out.print ("Enter Denominator: ");
+    denominator = scanner.nextInt ();
+    result = numerator / denominator;
+    
+    System.out.println (numerator + "/" + denominator + " = " + result);
+  }
+}
+</pre>
