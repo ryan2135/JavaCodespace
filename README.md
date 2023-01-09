@@ -25,6 +25,8 @@ public class Fraction {
     numerator = scanner.nextInt ();
     System.out.print ("Enter Denominator: ");
     denominator = scanner.nextInt ();
+    System.out.println ();
+    
     result = numerator / denominator;
     
     System.out.println (numerator + "/" + denominator + " = " + result);
